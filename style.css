@@ -1,0 +1,397 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .logo span {
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        .sign-in {
+            background-color: black;
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        .sign-in:hover {
+            background-color: green;
+        }
+    </style>
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+
+    .hero-content {
+        max-width: 50%;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .hero-content .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        border-radius: 3px;
+    }
+
+    .hero-content .cta-button:hover {
+        background-color: green;
+    }
+
+    .hero-image {
+        max-width: 45%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 450px;
+    }
+</style>
+
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            background-color: #f9f9f9;
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .feature-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .feature-card img {
+            width: 256px;
+            height: 246px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card:hover {
+            border-color: #aaa;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        .hosting-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .hosting-image {
+            max-width: 40%;
+        }
+
+        .hosting-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hosting-content {
+            max-width: 50%;
+        }
+
+        .hosting-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hosting-content p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .hosting-content p span {
+            font-weight: bold;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    </style>
+
+ 
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #000;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h1 {
+      font-size: 2rem;
+      margin: 0 0 10px;
+      color: #000;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #555;
+      margin: 0;
+    }
+  </style>
+
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form input[type="email"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-right: none;
+            outline: none;
+            border-radius: 4px 0 0 4px;
+        }
+        .form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 0 4px 4px 0;
+        }
+        .form button:hover {
+            background-color: #333;
+        }
+    </style>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 40px;
+        background-color: white;
+    }
+    .footer-left {
+        max-width: 300px;
+    }
+    .footer-left h2 {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .footer-left h2 img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .footer-left p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+    }
+    .footer-right {
+        display: flex;
+        gap: 40px;
+    }
+    .footer-right ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-right ul li {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+</style>
+
+
+
+    <style>
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+            border-top: 1px solid #ccc;
+            font-size: 14px;
+            color: #666;
+        }
+        .footer-bottom .social-icons {
+            display: flex;
+            justify-content: flex-end;        
+            gap: 15px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+        }
+        .footer-bottom .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
